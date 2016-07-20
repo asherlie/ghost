@@ -1,5 +1,5 @@
 # GHOST.jar
-GHOST.jar will only run if in the same directory as a word list with the name words.txt
+GHOST.jar will only run if in the same directory as a word list with the name *words.txt*
 
 **This program has 5 functions:**
 
