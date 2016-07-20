@@ -1,6 +1,6 @@
 # GHOST.jar
 
-This program has 5 functions:
+**This program has 5 functions:**
 
   **1)** With the first argument being any amount of lowercase characters, it will find all of the words that contain that sequence of characters.
   
