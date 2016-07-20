@@ -7,6 +7,17 @@ import java.io.FileNotFoundException;
 public class Main {
 	public static void main(String[] args){
 		
+		if(args.length != 0 && args[0].equals("SELF")){
+			SelfPlay sel = new SelfPlay();
+			try {
+				sel.play();
+			} catch (FileNotFoundException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
+		}
+
+		
 		
 		if(args.length != 0 && args[0].equals("MAX")){
 			GhostMethods gho = new GhostMethods();
