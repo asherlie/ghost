@@ -1,4 +1,4 @@
-# ghost
+# GHOST.jar
 
 This program has 4 functions:
 
