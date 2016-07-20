@@ -1,3 +1,3 @@
 # GHOST
 
-you can learn more about ghost [here](https://en.wikipedia.org/wiki/Ghost_(game))
+You can learn the rules of ghost [here](https://en.wikipedia.org/wiki/Ghost_(game))
