@@ -13,4 +13,4 @@ GHOST.jar will only run if in the same directory as a word list with the name **
   
  **5)** With no arguments, GHOST.jar will find the combination of two letters with the most possible outcomes by using a running max. Each time the max is incremented, it will be printed alongside the two letter combination.
  
- **6)**(work in progress)
+ **6)**(work in progress) With the first argument "SELF", GHOST.jar will initiate a simulated two player game. The game will be started with a random letter, and the move of each turn will be determined by the BestChoice algorithm.
