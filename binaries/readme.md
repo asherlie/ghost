@@ -7,10 +7,10 @@ GHOST.jar will only run if in the same directory as a word list with the name **
   
   **2)** with the input of any integer up to 2147483647([the maximum positive value for 32 bit signed binary integers](https://en.wikipedia.org/wiki/2147483647_(number)#In_computing)), GHOST.jar finds all the two letter character combinations with less than or equal to that number of possible outcomes, printing the words that each pair of letters can make. 
   
-  **3)** With the first argument "BEST", GHOST.jar will find the best move based on the second argument, which should be the current character or sequence of characters. This is achieved by using a running min for number of possible outcomes, while printing the min each time it is decremented, alongside the proportion of possible outcomes that will guarantee a win in a two person game.
+  **3)** With the first argument "BEST", GHOST.jar will find the best move based on the second argument, which should be the current character or sequence of characters. This is achieved by using a running min for number of possible outcomes, while printing the min each time it is decremented, alongside the proportion of possible outcomes that will guarantee a win in a two person game. If the letter that produces the least amount of options will not guarantee a win, the recommended letter will be the one with the highest percentage chance of leading to a victory. 
   
   **4)** With the first argument "MAX", GHOST.jar will find the move with the most possible outcomes based on the second argument, which should be the current character or sequence of characters. 
   
- **5)** With no arguments, GHOST.jar will find the combination of two letters with the most possible outcomes by using a running max. Each time the max is incremented, it will be printed alongside the two letter combination.
+ **5)** With no arguments, GHOST.jar will find the combination of two letters with the most possible outcomes by using a running max. Each time the max is incremented, it will be printed alongside the two letter combination. 
  
  **6)**(work in progress) With the first argument "SELF", GHOST.jar will initiate a simulated two player game. The game will be started with a random letter, and the move of each turn will be determined by the BestChoice algorithm.
